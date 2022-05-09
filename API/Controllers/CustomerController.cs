@@ -54,10 +54,9 @@ namespace Swift_API.Controllers
                 return BadRequest("Customer not found.");
 
             dbcustomer.CustomerId = request.CustomerId;
-            dbcustomer.UserName = request.UserName;
-            dbcustomer.FirstName = request.FirstName;
-            dbcustomer.LastName = request.LastName;
-            dbcustomer.Email = request.Email;
+            dbcustomer.CustomerFirstname = request.CustomerFirstname;
+            dbcustomer.CustomerLastname = request.CustomerLastname;
+            dbcustomer.CustomerEmail = request.CustomerEmail;
             dbcustomer.Password = request.Password;
             dbcustomer.CustomerAddress = request.CustomerAddress;
 

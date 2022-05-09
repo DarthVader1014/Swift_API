@@ -1,6 +1,4 @@
-﻿
-using System.ComponentModel.DataAnnotations;
-
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Swift_API
 {
@@ -8,10 +6,9 @@ namespace Swift_API
     {
         [Key]
         public int CustomerId { get; set; }
-        public string UserName { get; set; } = string.Empty;
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
+        public string CustomerFirstname { get; set; } = string.Empty;
+        public string CustomerLastname { get; set; } = string.Empty;
+        public string CustomerEmail { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
         public string CustomerAddress { get; set; } = string.Empty;    
 
