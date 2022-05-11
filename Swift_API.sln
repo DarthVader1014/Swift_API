@@ -1,10 +1,30 @@
-<<<<<<< HEAD
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift_API", "API\Swift_API.csproj", "{C4C0B8D9-E3FD-4227-A37A-ADF26256CEE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.API", "Swift.API\Swift.API.csproj", "{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Swift.UI", "Swift.UI\", "{909FE240-1FBC-4230-9AC3-0BEE08BC761E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51614"
+		Debug.AspNetCompiler.PhysicalPath = "Swift.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51614\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51614"
+		Release.AspNetCompiler.PhysicalPath = "Swift.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51614\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51614"
+		SlnRelativePath = "Swift.UI\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,42 +32,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4C0B8D9-E3FD-4227-A37A-ADF26256CEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4C0B8D9-E3FD-4227-A37A-ADF26256CEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4C0B8D9-E3FD-4227-A37A-ADF26256CEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4C0B8D9-E3FD-4227-A37A-ADF26256CEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909FE240-1FBC-4230-9AC3-0BEE08BC761E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909FE240-1FBC-4230-9AC3-0BEE08BC761E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909FE240-1FBC-4230-9AC3-0BEE08BC761E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{909FE240-1FBC-4230-9AC3-0BEE08BC761E}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B4FB2524-8154-4880-810D-864FAD62F065}
+		SolutionGuid = {C3445EFD-368E-4570-B459-14807110BBB2}
 	EndGlobalSection
 EndGlobal
-=======
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift_API", "Swift_API.csproj", "{DB6E637E-A42B-4975-8165-62C82B108BAE}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB6E637E-A42B-4975-8165-62C82B108BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB6E637E-A42B-4975-8165-62C82B108BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB6E637E-A42B-4975-8165-62C82B108BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB6E637E-A42B-4975-8165-62C82B108BAE}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B4FB2524-8154-4880-810D-864FAD62F065}
-	EndGlobalSection
-EndGlobal
->>>>>>> 23f0d9aea8514ae9fb551607c0ee8c1151602468
