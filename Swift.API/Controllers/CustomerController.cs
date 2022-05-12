@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Swift_API.Controllers
 {
 
 
 
-
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomerController : ControllerBase
@@ -49,16 +50,15 @@ namespace Swift_API.Controllers
         [HttpPut]
        public async Task<ActionResult<List<Customer>>> UpdateCustomer(Customer request)
        {
-            var dbcustomer = await _dataContext.Customers.FindAsync(request.CustomerId);
+            var dbcustomer = await _dataContext.Customers.FindAsync(request.Id);
             if (dbcustomer == null)
                 return BadRequest("Customer not found.");
 
-            dbcustomer.CustomerId = request.CustomerId;
-            dbcustomer.CustomerFirstname = request.CustomerFirstname;
-            dbcustomer.CustomerLastname = request.CustomerLastname;
-            dbcustomer.CustomerEmail = request.CustomerEmail;
+            dbcustomer.Id = request.Id;
+            dbcustomer.Firstname = request.Firstname;
+            dbcustomer.Lastname = request.Lastname;
+            dbcustomer.Username = request.Username;
             dbcustomer.Password = request.Password;
-            dbcustomer.CustomerAddress = request.CustomerAddress;
 
             await _dataContext.SaveChangesAsync();
 

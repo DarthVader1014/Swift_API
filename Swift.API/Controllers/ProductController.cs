@@ -44,15 +44,15 @@ namespace Swift_API.Controllers
         [HttpPut]
         public async Task<ActionResult<List<Product>>> UpdateProduct(Product request)
         {
-            var dbproduct = await _dataContext.Products.FindAsync(request.ProductId);
+            var dbproduct = await _dataContext.Products.FindAsync(request.Id);
             if (dbproduct == null)
                 return BadRequest("Product not found.");
 
-            dbproduct.ProductId = request.ProductId;
-            dbproduct.ProductName = request.ProductName;
-            dbproduct.ProductPrice = request.ProductPrice;
+            dbproduct.Id = request.Id;
+            dbproduct.Name = request.Name;
+            dbproduct.Price = request.Price;
             dbproduct.CategoryId = request.CategoryId;
-            dbproduct.ProductDesc = request.ProductDesc;
+            dbproduct.Description = request.Description;
 
 
             await _dataContext.SaveChangesAsync();
