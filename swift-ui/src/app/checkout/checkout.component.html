@@ -1,0 +1,12 @@
+<h3>Cart</h3>
+
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }}</span>
+  <span>{{ item.price | currency:'R'}}</span>
+</div>
+
+
+<form [formGroup]="checkoutForm" (ngSubmit)="OnSubmit(checkoutForm.value)" *ngIf="items.length > 0">
+
+  <button routerLink="/login" class="button" mat-button color="primary" type="submit">Purchase</button>
+</form>

@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "001",
+      "name": "Russell Hobbs Electronic Microwave Silver ",
+      "price": 2299,
+      "image": "https://www.everyshop.co.za/media/catalog/product/cache/ea1c1d49663f18175f3f3520f39859aa/1/0/10115435_hfco_e880.jpg",
+      "description": "This impressive Russell Hobbs 36L capacity electronic and grill microwave is a must-have for easy cooking! With 8 auto menus, grill and combination cooking and 5 power levels."
+    },
+    {
+      "id": "002",
+      "name": "Russell Hobbs 20L Flatbed Microwave Oven",
+      "price": 1599,
+      "image": "https://www.everyshop.co.za/media/catalog/product/cache/ea1c1d49663f18175f3f3520f39859aa/r/h/rhfbm20l_d458.jpg",
+      "description": "Flatbed technology removes the need for a turntable, maximising the 20L internal space so that square plates and casserole dishes can be reheated or defrosted."
+    },
+    {
+      "id": "003",
+      "name": "Russell Hobbs 20lt Manual Microwave",
+      "price": 1199,
+      "image": "https://www.everyshop.co.za/media/catalog/product/cache/ea1c1d49663f18175f3f3520f39859aa/r/u/russell_hobbs_20lmanual_m_wave_43bf.jpg",
+      "description": "The elegant Russell Hobbs Classic 20L Manual Microwave with Mirror Finish is the ideal cooking companion in the kitchen. Designed for ease of use, it features a manual control panel with a rotary timer."
+    },
+    {
+      "id": "004",
+      "name": "Samsung 28L Solo Electronic Microwave",
+      "price": 2400,
+      "image": "https://www.everyshop.co.za/media/catalog/product/cache/ea1c1d49663f18175f3f3520f39859aa/m/e/me6104st_8f24.jpg",
+      "description": "Serve perfectly cooked fresh vegetables, pasta and more with ease in the ME6104ST1 Solo microwave."
+    },
+    {
+      "id": "005",
+      "name": "Samsung 32lt Solo Microwave Silver",
+      "price": 1999,
+      "image": "https://www.everyshop.co.za/media/catalog/product/cache/ea1c1d49663f18175f3f3520f39859aa/m/e/me0113m_54bc.jpg",
+      "description": "A variety of fresh and healthy meals are at your fingertips with 9 pre-set cook modes on Samsung's Mirror Grill."
+    },
+    {
+      "id": "006",
+      "name": "Samsung 40L Electronic Microwave Silver ",
+      "price": 1540,
+      "image": "https://www.everyshop.co.za/media/catalog/product/cache/ea1c1d49663f18175f3f3520f39859aa/m/e/me9144st_9937.jpg",
+      "description": "At Samsung, we pride ourselves on improving every product we make with innovative technologies. Our Triple Distribution System."
+    }
+  ]
+}

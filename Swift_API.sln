@@ -5,25 +5,25 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swift.API", "Swift.API\Swift.API.csproj", "{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Swift.UI", "Swift.UI\", "{909FE240-1FBC-4230-9AC3-0BEE08BC761E}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "swift-ui", "swift-ui\", "{5D36BFE7-C889-4C8D-9235-061A0AB1F3A0}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_51614"
-		Debug.AspNetCompiler.PhysicalPath = "Swift.UI\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51614\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53629"
+		Debug.AspNetCompiler.PhysicalPath = "swift-ui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53629\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_51614"
-		Release.AspNetCompiler.PhysicalPath = "Swift.UI\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51614\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53629"
+		Release.AspNetCompiler.PhysicalPath = "swift-ui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53629\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "51614"
-		SlnRelativePath = "Swift.UI\"
+		VWDPort = "53629"
+		SlnRelativePath = "swift-ui\"
 	EndProjectSection
 EndProject
 Global
@@ -36,9 +36,10 @@ Global
 		{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81A9BA5F-712B-43B1-9B9A-BC3B14DD6AE2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{909FE240-1FBC-4230-9AC3-0BEE08BC761E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{909FE240-1FBC-4230-9AC3-0BEE08BC761E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{909FE240-1FBC-4230-9AC3-0BEE08BC761E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5D36BFE7-C889-4C8D-9235-061A0AB1F3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D36BFE7-C889-4C8D-9235-061A0AB1F3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D36BFE7-C889-4C8D-9235-061A0AB1F3A0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D36BFE7-C889-4C8D-9235-061A0AB1F3A0}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

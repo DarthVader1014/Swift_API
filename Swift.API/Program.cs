@@ -40,12 +40,12 @@ builder.Services.AddAuthentication(options =>
 // Adding Jwt Bearer
 .AddJwtBearer(options =>
 {
-  options.SaveToken = true;
+  options.SaveToken = false;
   options.RequireHttpsMetadata = false;
   options.TokenValidationParameters = new TokenValidationParameters()
   {
-    ValidateIssuer = true,
-    ValidateAudience = true,
+    ValidateIssuer = false,
+    ValidateAudience = false,
     ValidAudience = builder.Configuration["Appsettings:Audience"],
     ValidIssuer = builder.Configuration["Appsettings:Issuer"],
     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Appsettings:Secret"]))

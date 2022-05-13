@@ -35,13 +35,13 @@ namespace Swift.API.Controllers
     {
       // generate token that is valid for 7 days
       var tokenHandler = new JwtSecurityTokenHandler();
-      var secret = Encoding.ASCII.GetBytes(_configuration["AppSettings:Secret"]);
+      var secret = Encoding.ASCII.GetBytes(_configuration["Appsettings:Secret"]);
       var tokenDescriptor = new SecurityTokenDescriptor
       {
         Subject = new ClaimsIdentity(new[] { new Claim("id", customer.Id.ToString()) }),
-        Issuer = _configuration["Appsettings.Issuer"],
-        Audience = _configuration["Appsettings.Audience"],
-        Expires = DateTime.UtcNow.AddHours(1),
+        Issuer = _configuration["Appsettings:Issuer"],
+        Audience = _configuration["Appsettings:Audience"],
+        Expires = DateTime.UtcNow.AddHours(8),
         SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(secret), SecurityAlgorithms.HmacSha256Signature)
       };
       var token = tokenHandler.CreateToken(tokenDescriptor);
